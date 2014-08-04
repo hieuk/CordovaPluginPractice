@@ -28,6 +28,6 @@ public class CustomPlugin extends CordovaPlugin {
         } else {
             return false;
         }
-        
+        // Test comment
     }
 }
