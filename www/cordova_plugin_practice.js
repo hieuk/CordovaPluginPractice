@@ -1,11 +1,11 @@
 var customPlugin = {
-    callNativeFunction: function(successFunctionCallback, errorFunctionCallback, args) {
+    callNativeFunction: function(args) {
 		return cordova.exec(
             null, 
             null, 
             "com.example.cordovapluginpractice.CustomPlugin", 
-            "action_toast", 
-            [document.getElementById("input").value]
+            "action_toast",
+			[args]
         );
     }
 }
