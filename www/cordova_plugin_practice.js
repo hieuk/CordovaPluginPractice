@@ -1,6 +1,6 @@
 var customPlugin = {
     callNativeFunction: function(args) {
-		return cordova.exec(
+		cordova.exec(
             null, 
             null, 
             "com.example.cordovapluginpractice.CustomPlugin", 
