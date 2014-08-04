@@ -1,4 +1,5 @@
-package android;
+package com.example.cordovapluginpractice;
+//package android;
 
 import org.apache.cordova.api.CallbackContext;
 import org.apache.cordova.api.CordovaPlugin;
