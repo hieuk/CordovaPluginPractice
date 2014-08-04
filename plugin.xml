@@ -21,7 +21,7 @@
             </feature>
         </config-file>
  
-        <source-file src="src/com.example.cordovapluginpractice/CustomPlugin.java" target-dir="src/org/devgirl/calendar" />      
+        <source-file src="src/android/CustomPlugin.java" target-dir="src/com/example/cordovapluginpractice" />      
      </platform>          
     
 </plugin>
